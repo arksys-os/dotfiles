@@ -1,0 +1,88 @@
+{
+  "mapMarkers": [
+    {
+      "id": "leaflet-map",
+      "files": [
+        "_Obsidian/Plugins/Obsidian-Leaflet/Leaflet.md"
+      ],
+      "lastAccessed": 1631754468948,
+      "markers": [
+        {
+          "type": "default",
+          "id": "ID_9bebeab97a6a",
+          "loc": [
+            -0.287109375,
+            1.0781240282960198
+          ],
+          "percent": [
+            0.7885707178393745,
+            0.25857519788918204
+          ],
+          "link": "000",
+          "layer": "%5B%5BTenerife-map.jpg%5D%5D",
+          "command": false,
+          "zoom": 11,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "type": "default",
+          "id": "ID_78ba5a2be84b",
+          "loc": [
+            -0.18701171875,
+            1.0092700559701493
+          ],
+          "percent": [
+            0.7382089552238806,
+            0.16842568161829374
+          ],
+          "link": "",
+          "layer": "%5B%5BTenerife-map.jpg%5D%5D",
+          "command": false,
+          "zoom": 11,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        }
+      ],
+      "overlays": []
+    }
+  ],
+  "defaultMarker": {
+    "type": "default",
+    "iconName": "map-marker",
+    "color": "#dddddd",
+    "transform": {
+      "size": 6,
+      "x": 0,
+      "y": -2
+    }
+  },
+  "markerIcons": [],
+  "color": "#dddddd",
+  "lat": 39.983334,
+  "long": -82.98333,
+  "notePreview": false,
+  "layerMarkers": true,
+  "previousVersion": "5.2.6",
+  "version": {
+    "major": 5,
+    "minor": 2,
+    "patch": 6
+  },
+  "warnedAboutMapMarker": false,
+  "copyOnClick": false,
+  "displayMarkerTooltips": "hover",
+  "displayOverlayTooltips": true,
+  "configDirectory": null,
+  "mapViewEnabled": true,
+  "mapViewParameters": {},
+  "enableDraw": true,
+  "defaultUnitType": "imperial",
+  "defaultTile": "https://stamen-tiles.a.ssl.fastly.net/terrain/{z}/{x}/{y}.png",
+  "defaultTileDark": "https://stamen-tiles.a.ssl.fastly.net/terrain/{z}/{x}/{y}.png",
+  "defaultAttribution": "Map tiles by <a href=\"http://stamen.com\">Stamen Design</a>, under <a href=\"http://creativecommons.org/licenses/by/3.0\">CC BY 3.0</a>. Data by <a href=\"http://openstreetmap.org\">OpenStreetMap</a>, under <a href=\"http://www.openstreetmap.org/copyright\">ODbL</a>."
+}

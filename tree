@@ -1,0 +1,219 @@
+.
+├── ./.bash_profile
+├── ./.bashrc
+├── ./.config
+│   ├── ./.config/alacritty
+│   │   ├── ./.config/alacritty/alacritty.yml
+│   │   ├── ./.config/alacritty/default-arcolinux.yml
+│   │   └── ./.config/alacritty/default-github.yml
+│   ├── ./.config/GIMP
+│   │   └── ./.config/GIMP/PhotoGIMP-config_GIMP_2.10.zip
+│   ├── ./.config/hypr
+│   │   └── ./.config/hypr/hyprland.conf
+│   ├── ./.config/kitty
+│   │   └── ./.config/kitty/kitty.conf
+│   ├── ./.config/ktimezonedrc
+│   ├── ./.config/kwinrc
+│   ├── ./.config/mpv
+│   │   └── ./.config/mpv/mpv.conf
+│   ├── ./.config/neofetch
+│   │   └── ./.config/neofetch/config.conf
+│   ├── ./.config/nvim
+│   │   └── ./.config/nvim/init.vim
+│   ├── ./.config/obs-studio
+│   │   ├── ./.config/obs-studio/basic
+│   │   │   ├── ./.config/obs-studio/basic/profiles
+│   │   │   │   └── ./.config/obs-studio/basic/profiles/StudioRec
+│   │   │   │       └── ./.config/obs-studio/basic/profiles/StudioRec/basic.ini
+│   │   │   └── ./.config/obs-studio/basic/scenes
+│   │   └── ./.config/obs-studio/global.ini
+│   ├── ./.config/qBittorrent
+│   │   ├── ./.config/qBittorrent/categories.json
+│   │   ├── ./.config/qBittorrent/qBittorrent.conf
+│   │   ├── ./.config/qBittorrent/qBittorrent-data.conf
+│   │   ├── ./.config/qBittorrent/rss
+│   │   │   └── ./.config/qBittorrent/rss/feeds.json
+│   │   └── ./.config/qBittorrent/watched_folders.json
+│   ├── ./.config/rofi
+│   │   └── ./.config/rofi/config.rasi
+│   ├── ./.config/starship.toml
+│   ├── ./.config/tmux
+│   │   └── ./.config/tmux/tmux.conf
+│   ├── ./.config/vlc
+│   │   ├── ./.config/vlc/vlc-qt-interface.conf
+│   │   └── ./.config/vlc/vlcrc
+│   └── ./.config/.wezterm
+│       └── ./.config/.wezterm/wezterm.lua
+├── ./etc
+│   ├── ./etc/fstab
+│   ├── ./etc/my.cnf
+│   ├── ./etc/pacman.conf
+│   └── ./etc/pacman.d
+│       ├── ./etc/pacman.d/archlinux-mirrorlist
+│       ├── ./etc/pacman.d/arcolinux-mirrorlist
+│       ├── ./etc/pacman.d/arksys-mirrorlist
+│       ├── ./etc/pacman.d/cachyos-mirrorlist
+│       ├── ./etc/pacman.d/chaotic-mirrorlist
+│       ├── ./etc/pacman.d/endeavouros-mirrorlist
+│       ├── ./etc/pacman.d/mirrorlist
+│       └── ./etc/pacman.d/xero-mirrorlist
+├── ./.mozilla
+│   └── ./.mozilla/firefox
+├── ./.obsidian
+│   ├── ./.obsidian/appearance.json
+│   ├── ./.obsidian/app.json
+│   ├── ./.obsidian/backlink.json
+│   ├── ./.obsidian/canvas.json
+│   ├── ./.obsidian/command-palette.json
+│   ├── ./.obsidian/community-plugins.json
+│   ├── ./.obsidian/core-plugins.json
+│   ├── ./.obsidian/core-plugins-migration.json
+│   ├── ./.obsidian/graph.json
+│   ├── ./.obsidian/hotkeys.json
+│   ├── ./.obsidian/plugins
+│   │   ├── ./.obsidian/plugins/3d-graph
+│   │   │   ├── ./.obsidian/plugins/3d-graph/main.js
+│   │   │   ├── ./.obsidian/plugins/3d-graph/manifest.json
+│   │   │   └── ./.obsidian/plugins/3d-graph/styles.css
+│   │   ├── ./.obsidian/plugins/dataview
+│   │   │   ├── ./.obsidian/plugins/dataview/data.json
+│   │   │   ├── ./.obsidian/plugins/dataview/main.js
+│   │   │   ├── ./.obsidian/plugins/dataview/manifest.json
+│   │   │   └── ./.obsidian/plugins/dataview/styles.css
+│   │   ├── ./.obsidian/plugins/digitalgarden
+│   │   │   ├── ./.obsidian/plugins/digitalgarden/main.js
+│   │   │   ├── ./.obsidian/plugins/digitalgarden/manifest.json
+│   │   │   └── ./.obsidian/plugins/digitalgarden/styles.css
+│   │   ├── ./.obsidian/plugins/excalibrain
+│   │   │   ├── ./.obsidian/plugins/excalibrain/data.json
+│   │   │   ├── ./.obsidian/plugins/excalibrain/main.js
+│   │   │   ├── ./.obsidian/plugins/excalibrain/manifest.json
+│   │   │   └── ./.obsidian/plugins/excalibrain/styles.css
+│   │   ├── ./.obsidian/plugins/file-explorer-note-count
+│   │   │   ├── ./.obsidian/plugins/file-explorer-note-count/main.js
+│   │   │   ├── ./.obsidian/plugins/file-explorer-note-count/manifest.json
+│   │   │   └── ./.obsidian/plugins/file-explorer-note-count/styles.css
+│   │   ├── ./.obsidian/plugins/mermaid-tools
+│   │   │   ├── ./.obsidian/plugins/mermaid-tools/main.js
+│   │   │   ├── ./.obsidian/plugins/mermaid-tools/manifest.json
+│   │   │   └── ./.obsidian/plugins/mermaid-tools/styles.css
+│   │   ├── ./.obsidian/plugins/obsidian-bible-reference
+│   │   │   ├── ./.obsidian/plugins/obsidian-bible-reference/main.js
+│   │   │   ├── ./.obsidian/plugins/obsidian-bible-reference/manifest.json
+│   │   │   └── ./.obsidian/plugins/obsidian-bible-reference/styles.css
+│   │   ├── ./.obsidian/plugins/obsidian-chartsview-plugin
+│   │   │   ├── ./.obsidian/plugins/obsidian-chartsview-plugin/main.js
+│   │   │   ├── ./.obsidian/plugins/obsidian-chartsview-plugin/manifest.json
+│   │   │   └── ./.obsidian/plugins/obsidian-chartsview-plugin/styles.css
+│   │   ├── ./.obsidian/plugins/obsidian-enhancing-mindmap
+│   │   │   ├── ./.obsidian/plugins/obsidian-enhancing-mindmap/data.json
+│   │   │   ├── ./.obsidian/plugins/obsidian-enhancing-mindmap/main.js
+│   │   │   ├── ./.obsidian/plugins/obsidian-enhancing-mindmap/manifest.json
+│   │   │   └── ./.obsidian/plugins/obsidian-enhancing-mindmap/styles.css
+│   │   ├── ./.obsidian/plugins/obsidian-excalidraw-plugin
+│   │   │   ├── ./.obsidian/plugins/obsidian-excalidraw-plugin/data.json
+│   │   │   ├── ./.obsidian/plugins/obsidian-excalidraw-plugin/main.js
+│   │   │   ├── ./.obsidian/plugins/obsidian-excalidraw-plugin/manifest.json
+│   │   │   └── ./.obsidian/plugins/obsidian-excalidraw-plugin/styles.css
+│   │   ├── ./.obsidian/plugins/obsidian-git
+│   │   │   ├── ./.obsidian/plugins/obsidian-git/main.js
+│   │   │   ├── ./.obsidian/plugins/obsidian-git/manifest.json
+│   │   │   └── ./.obsidian/plugins/obsidian-git/styles.css
+│   │   ├── ./.obsidian/plugins/obsidian-kanban
+│   │   │   ├── ./.obsidian/plugins/obsidian-kanban/main.js
+│   │   │   ├── ./.obsidian/plugins/obsidian-kanban/manifest.json
+│   │   │   └── ./.obsidian/plugins/obsidian-kanban/styles.css
+│   │   ├── ./.obsidian/plugins/obsidian-latex-suite
+│   │   │   ├── ./.obsidian/plugins/obsidian-latex-suite/main.js
+│   │   │   ├── ./.obsidian/plugins/obsidian-latex-suite/manifest.json
+│   │   │   └── ./.obsidian/plugins/obsidian-latex-suite/styles.css
+│   │   ├── ./.obsidian/plugins/obsidian-leaflet-plugin
+│   │   │   ├── ./.obsidian/plugins/obsidian-leaflet-plugin/data.json
+│   │   │   ├── ./.obsidian/plugins/obsidian-leaflet-plugin/main.js
+│   │   │   ├── ./.obsidian/plugins/obsidian-leaflet-plugin/manifest.json
+│   │   │   └── ./.obsidian/plugins/obsidian-leaflet-plugin/styles.css
+│   │   ├── ./.obsidian/plugins/obsidian-linter
+│   │   │   ├── ./.obsidian/plugins/obsidian-linter/data.json
+│   │   │   ├── ./.obsidian/plugins/obsidian-linter/main.js
+│   │   │   ├── ./.obsidian/plugins/obsidian-linter/manifest.json
+│   │   │   └── ./.obsidian/plugins/obsidian-linter/styles.css
+│   │   ├── ./.obsidian/plugins/obsidian-map-view
+│   │   │   ├── ./.obsidian/plugins/obsidian-map-view/main.js
+│   │   │   ├── ./.obsidian/plugins/obsidian-map-view/manifest.json
+│   │   │   └── ./.obsidian/plugins/obsidian-map-view/styles.css
+│   │   ├── ./.obsidian/plugins/obsidian-markmind
+│   │   │   ├── ./.obsidian/plugins/obsidian-markmind/main.js
+│   │   │   ├── ./.obsidian/plugins/obsidian-markmind/manifest.json
+│   │   │   └── ./.obsidian/plugins/obsidian-markmind/styles.css
+│   │   ├── ./.obsidian/plugins/obsidian-media-db-plugin
+│   │   │   ├── ./.obsidian/plugins/obsidian-media-db-plugin/main.js
+│   │   │   ├── ./.obsidian/plugins/obsidian-media-db-plugin/manifest.json
+│   │   │   └── ./.obsidian/plugins/obsidian-media-db-plugin/styles.css
+│   │   ├── ./.obsidian/plugins/obsidian-mind-map
+│   │   │   ├── ./.obsidian/plugins/obsidian-mind-map/main.js
+│   │   │   └── ./.obsidian/plugins/obsidian-mind-map/manifest.json
+│   │   ├── ./.obsidian/plugins/obsidian-ocr
+│   │   │   ├── ./.obsidian/plugins/obsidian-ocr/main.js
+│   │   │   ├── ./.obsidian/plugins/obsidian-ocr/manifest.json
+│   │   │   └── ./.obsidian/plugins/obsidian-ocr/styles.css
+│   │   ├── ./.obsidian/plugins/obsidian-plantuml
+│   │   │   ├── ./.obsidian/plugins/obsidian-plantuml/main.js
+│   │   │   ├── ./.obsidian/plugins/obsidian-plantuml/manifest.json
+│   │   │   └── ./.obsidian/plugins/obsidian-plantuml/styles.css
+│   │   ├── ./.obsidian/plugins/obsidian-tasks-plugin
+│   │   │   ├── ./.obsidian/plugins/obsidian-tasks-plugin/main.js
+│   │   │   ├── ./.obsidian/plugins/obsidian-tasks-plugin/manifest.json
+│   │   │   └── ./.obsidian/plugins/obsidian-tasks-plugin/styles.css
+│   │   ├── ./.obsidian/plugins/obsidian-wikipedia-search
+│   │   │   ├── ./.obsidian/plugins/obsidian-wikipedia-search/main.js
+│   │   │   └── ./.obsidian/plugins/obsidian-wikipedia-search/manifest.json
+│   │   ├── ./.obsidian/plugins/omnisearch
+│   │   │   ├── ./.obsidian/plugins/omnisearch/data.json
+│   │   │   ├── ./.obsidian/plugins/omnisearch/main.js
+│   │   │   ├── ./.obsidian/plugins/omnisearch/manifest.json
+│   │   │   └── ./.obsidian/plugins/omnisearch/styles.css
+│   │   ├── ./.obsidian/plugins/reveal-active-file-button
+│   │   │   ├── ./.obsidian/plugins/reveal-active-file-button/main.js
+│   │   │   └── ./.obsidian/plugins/reveal-active-file-button/manifest.json
+│   │   ├── ./.obsidian/plugins/table-editor-obsidian
+│   │   │   ├── ./.obsidian/plugins/table-editor-obsidian/data.json
+│   │   │   ├── ./.obsidian/plugins/table-editor-obsidian/main.js
+│   │   │   ├── ./.obsidian/plugins/table-editor-obsidian/manifest.json
+│   │   │   └── ./.obsidian/plugins/table-editor-obsidian/styles.css
+│   │   ├── ./.obsidian/plugins/templater-obsidian
+│   │   │   ├── ./.obsidian/plugins/templater-obsidian/data.json
+│   │   │   ├── ./.obsidian/plugins/templater-obsidian/main.js
+│   │   │   ├── ./.obsidian/plugins/templater-obsidian/manifest.json
+│   │   │   └── ./.obsidian/plugins/templater-obsidian/styles.css
+│   │   ├── ./.obsidian/plugins/terminal
+│   │   │   ├── ./.obsidian/plugins/terminal/data.json
+│   │   │   ├── ./.obsidian/plugins/terminal/main.js
+│   │   │   ├── ./.obsidian/plugins/terminal/manifest.json
+│   │   │   └── ./.obsidian/plugins/terminal/styles.css
+│   │   ├── ./.obsidian/plugins/text-extractor
+│   │   │   ├── ./.obsidian/plugins/text-extractor/data.json
+│   │   │   ├── ./.obsidian/plugins/text-extractor/main.js
+│   │   │   └── ./.obsidian/plugins/text-extractor/manifest.json
+│   │   └── ./.obsidian/plugins/wikipedia-search
+│   │       ├── ./.obsidian/plugins/wikipedia-search/main.js
+│   │       └── ./.obsidian/plugins/wikipedia-search/manifest.json
+│   ├── ./.obsidian/themes
+│   │   ├── ./.obsidian/themes/Atom
+│   │   │   ├── ./.obsidian/themes/Atom/manifest.json
+│   │   │   └── ./.obsidian/themes/Atom/theme.css
+│   │   ├── ./.obsidian/themes/Minimal
+│   │   │   ├── ./.obsidian/themes/Minimal/manifest.json
+│   │   │   └── ./.obsidian/themes/Minimal/theme.css
+│   │   ├── ./.obsidian/themes/Obsidian Nord
+│   │   │   ├── ./.obsidian/themes/Obsidian Nord/manifest.json
+│   │   │   └── ./.obsidian/themes/Obsidian Nord/theme.css
+│   │   ├── ./.obsidian/themes/_theme.73c5ffc5.css
+│   │   ├── ./.obsidian/themes/_theme.e0d2b5fa.css
+│   │   ├── ./.obsidian/themes/_theme.eae2f3b6.css
+│   │   └── ./.obsidian/themes/Things
+│   │       ├── ./.obsidian/themes/Things/manifest.json
+│   │       └── ./.obsidian/themes/Things/theme.css
+│   └── ./.obsidian/workspace.json
+└── ./README.md
+
+739 directories, 2060 files
