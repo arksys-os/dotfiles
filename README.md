@@ -5,7 +5,8 @@ Including:
 - mozilla-firefox, obsidian
 - etc (fstab, pacman)
 
-> [!NOTE] The configuration files of GIMP are compressed in an zip file, you need to decompress and put in ~/.config/GIMP. It is based on the repository of [DioLinux/PhotoGIMP](https://github.com/Diolinux/PhotoGIMP)
+> [!NOTE]
+> The configuration files of GIMP are compressed in an zip file, you need to decompress and put in ~/.config/GIMP. Based on [DioLinux/PhotoGIMP](https://github.com/Diolinux/PhotoGIMP)
 
 ```
 .
