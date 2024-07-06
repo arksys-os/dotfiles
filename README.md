@@ -1,7 +1,7 @@
 # Dotfiles
 
 Including:
-- config (alacritty, GUMP, hypr, kitty, kwinrc, obs, mpv, qBitorrent, rofi, starship, tmux, vlz, wezterm)
+- config (alacritty, GIMP, hypr, kitty, kwinrc, obs, mpv, qBitorrent, rofi, starship, tmux, vlz, wezterm)
 - mozilla-firefox, obsidian
 - etc (fstab, pacman)
 
