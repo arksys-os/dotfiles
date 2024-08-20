@@ -31,16 +31,18 @@ fi
 
 
 # Backup, Careful check destination path!!!
-# origen="" # put your origin
-# destino="" # put your destination
+origen="/0/"
+destino="/run/media/d7/d7-backup/"
 RSYNC_OPTIONS="-aAXv --delete --exclude='.Trash-1000/' --exclude='*/node_modules'"
 
-alias backup="rsync $RSYNC_OPTIONS $origen $destino && echo -e '\Backup done!'"
-alias test-backup="rsync $RSYNC_OPTIONS --dry-run $origen $destino && echo -e '\Backup test done!'"
+alias backup="rsync $RSYNC_OPTIONS $origen $destino && echo -e '\nExternal SSD backup done!'"
+alias test-backup="rsync $RSYNC_OPTIONS --dry-run $origen $destino && echo -e '\nExternal SSD backup test done!'"
 alias test-backup-output="rsync $RSYNC_OPTIONS --dry-run $origen $destino > rsync_out.txt 2>&1"
 
 
 # Bash aliases
+
+alias list-pkgs='pacman -Qq > arch-pkgs.txt && pacman -Qqm > aur-pkgs.txt && flatpak list --app --columns=application > flatpak-pkgs.txt'
 alias c='clear'
 alias breload='cd ~ && source ~/.bashrc'
 alias dir='dir --color=auto'
@@ -172,3 +174,9 @@ alias lsc='compgen -c | sort -k1.1,1.1 -k1.2n,1.2 > list-commands.txt'
 #export NVM_DIR="$HOME/.nvm"
 #[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 #[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+# Created by `pipx` on 2024-06-29 00:20:01
+export PATH="$PATH:/home/d7/.local/bin"
+export LD_LIBRARY_PATH=$PWD/lib/Linux-x86_64/piper_phonemize/lib
+
+PATH=~/.console-ninja/.bin:$PATH
