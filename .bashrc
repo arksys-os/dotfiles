@@ -28,19 +28,6 @@ if  [ -x /usr/bin/starship ]; then
     unset -f __main
 fi
 
-
-# Backup, Careful check destination path!!!
-origen="/0/"
-destino="/run/media/d7/d7-backup/"
-RSYNC_OPTIONS="-aAXv --delete --exclude='.Trash-1000/' --exclude='*/node_modules'"
-
-# rsync -aAXv --delete --exclude='*/node_modules' /0/ /run/media/d7/d7-backup/
-alias backup="rsync $RSYNC_OPTIONS $origen $destino && echo -e '\nExternal SSD backup done!'"
-alias test-backup="rsync $RSYNC_OPTIONS --dry-run $origen $destino && echo -e '\nExternal SSD backup test done!'"
-alias test-backup-output="rsync $RSYNC_OPTIONS --dry-run $origen $destino > rsync_out.txt 2>&1"
-
-alias backup-MEGA="rsync -aAXvh --delete /0/Documents/D7-notes /0/Documents/David7ce-docs/bookmarks /0/Documents/David7ce-docs/software-list /0/Software/Config-files /home/d7/MEGA/MEGA/Documents/"
-
 ############ Bash aliases #############
 
 alias list-pkgs='pacman -Qq > arch-pkgs.txt && pacman -Qqm > aur-pkgs.txt && flatpak list --app --columns=application > flatpak-pkgs.txt'
