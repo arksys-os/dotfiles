@@ -1,0 +1,8 @@
+com.github.tchx84.Flatseal
+com.mardojai.DiccionarioLengua
+com.usebottles.bottles
+dev.bragefuglseth.Fretboard
+io.github.sigmasd.stimulator
+net.mkiol.SpeechNote
+org.gnome.gitlab.YaLTeR.VideoTrimmer
+org.upscayl.Upscayl
